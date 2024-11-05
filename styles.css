@@ -8,6 +8,7 @@ body {
     min-height: 100vh; 
     display: flex; 
     flex-direction: column;
+    font-family: Roboto, Geneva, sans-serif; 
 }
 .title { 
     font-size: 48px; 
@@ -34,10 +35,11 @@ body {
 }
 
 .images { 
-    width: 150px; 
-    height: 150px; 
+    width: 125px; 
+    height: 125px; 
     outline: 4px solid #3882F6; 
     border-radius: 10px;
+    margin-bottom: 8px; 
 }
 
 .quote-container { 
@@ -45,22 +47,79 @@ body {
     background-color: #E5E7EB;
     font-size: 36px; 
     font-style: italic;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+    flex-direction: column;
+}
+
+.quote { 
+    flex-wrap: wrap;
+}
+
+.quote-container2 { 
+    width: 800px; 
+    height: 200px; 
 }
 
 .signature { 
     font-weight: 900; 
-    font-size: 18px; 
+    font-size: 18px;
+    display: flex; 
+    justify-content: flex-end;
+}
+
+.bottom-main { 
+    display: flex; 
+    justify-content: center;
 }
 
 .bottom-container { 
     height: 100px; 
     width: 1000px; 
     background-color: #3882F6;
+    margin-top: 40px; 
+    margin-bottom: 40px;  
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+}
+
+.bottom-left { 
+    display: flex; 
+    flex-direction: column;
+}
+
+.action { 
+    color: #F9FAF8; 
+    font-weight: 700; 
+    font-size: 20px; 
+}
+
+.sign-up { 
+    color: #F9FAF8; 
+}
+
+.bottom-button { 
+    background-color: #3882F6; 
+    color: white; 
+    padding: 4px 16px; 
+    border-radius: 8px; 
+    width: 120px; 
+    font-weight: 700; 
+    padding: 8px; 
+    border-color: white; 
 }
 
 .footer { 
     background-color: #1F2937;
     color: #F9FAF8; 
+    margin-top: auto; 
+    height: 50px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
 }
 
 .logo-image { 
@@ -97,6 +156,7 @@ li {
     margin-left: 200px; 
     margin-right: 200px; 
     justify-content: space-between;
+    padding-bottom: 50px;
 }
 
 .header-container { 
@@ -106,5 +166,42 @@ li {
     width: 400px; 
     height: 225px; 
     flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.midsection { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-one, 
+.image-two, 
+.image-three, 
+.image-four { 
+    display: flex; 
+    flex-direction: column;
+}
+
+.fourimages { 
+    display: flex;
+    gap: 48px; 
+    margin-bottom: 64px; 
+}
+
+.title2 { 
+    font-size: 36px; 
+    font-weight: 900; 
+    color: #1F2937; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+
+.text-image { 
+    width: 130px; 
+    display: flex; 
+    flex-wrap: wrap; 
+    text-align: center;
 }
 
